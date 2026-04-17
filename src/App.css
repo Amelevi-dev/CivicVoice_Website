@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@theme {
+  --color-primary: #003C64;
+  --color-secondary: #32E9CD;
+  --color-accent: #FF844B;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app-navbar-offset {
+  padding-top: 7rem; /* Ajuste selon la hauteur réelle de la navbar (ici ~112px) */
+}
