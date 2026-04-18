@@ -3,7 +3,7 @@ import { FaClipboard, FaClipboardList, FaFingerprint, FaPenToSquare, FaShield } 
 
 export const FONCTIONNALITE = ()=>{
     return(
-        <section className="md:py-5 md:px-4 flex flex-col items-center justify-center h-auto w-full">
+        <section className="md:py-5 md:px-4 flex flex-col items-center justify-center h-auto w-full" id="fonctionnalite">
                 <h1 className='text-4xl md:text-5xl font-semibold text-primary leading-[1.1] tracking-tight py-6 text-center' data-aos="fade-right">Comment ça marche</h1>
 
                 <div className="cardContainer w-full flex flex-col items-center justify-center gap-3 md:grid md:grid-cols-3 md:justify-center md:w-full mx-auto h-auto md:items-stretch ">

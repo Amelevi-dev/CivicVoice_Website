@@ -29,9 +29,9 @@ export const NAVBAR = () => {
 
           {/* Menu Desktop */}
           <div className="hidden md:flex space-x-6 items-center">
-            <a href="#" className="hover:text-[#FA6E3F] duration-300 transition">Accueil</a>
-            <a href="#" className="hover:text-[#FA6E3F] duration-300 transition">A propos</a>
-            <a href="#" className="hover:text-[#FA6E3F] duration-300 transition">Mission & Impact</a>
+            <a href="#home" className="hover:text-[#FA6E3F] duration-300 transition">Accueil</a>
+            <a href="#about" className="hover:text-[#FA6E3F] duration-300 transition">A propos</a>
+            <a href="#mission" className="hover:text-[#FA6E3F] duration-300 transition">Mission & Impact</a>
             <Button text="Rejoindre" variante="primary" />
           </div>
 
@@ -76,9 +76,9 @@ export const NAVBAR = () => {
 
           {/* Liens */}
           <div className="flex flex-col space-y-8 px-6">
-            <a href="#" className="text-white text-lg font-medium hover:opacity-80 transition">Accueil</a>
-            <a href="#" className="text-white text-lg font-medium hover:opacity-80 transition">A propos</a>
-            <a href="#" className="text-white text-lg font-medium hover:opacity-80 transition">Mission & Impact</a>
+            <a href="#home" className="text-white text-lg font-medium hover:opacity-80 transition">Accueil</a>
+            <a href="#about" className="text-white text-lg font-medium hover:opacity-80 transition">A propos</a>
+            <a href="#mission" className="text-white text-lg font-medium hover:opacity-80 transition">Mission & Impact</a>
           </div>
 
           

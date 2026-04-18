@@ -3,7 +3,7 @@ import img2 from '../assets/images/megaphone.jpg'
 import img3 from '../assets/images/img7.png'
 export const ABOUTSECTION = ()=>{
     return(
-         <section className="text-white min-h-screen px-6 mb-5 md:px-16 py-3 relative overflow-hidden" data-aos="fade-up">
+         <section className="text-white min-h-screen px-6 mb-5 md:px-16 py-3 relative overflow-hidden" data-aos="fade-up" id="about">
             <p className='text-black text-sm md:text-lg  leading-relaxed md:w-2/3 text-justify'>
               Aujourd’hui, la participation citoyenne est 
               souvent limitée aux périodes électorales. Entre ces moments,
