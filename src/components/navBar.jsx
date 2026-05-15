@@ -8,6 +8,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6'
 export const NAVBAR = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+
+
   // Empêche le scroll quand le menu est ouvert
   useEffect(() => {
     if (isOpen) {
@@ -32,7 +34,7 @@ export const NAVBAR = () => {
             <a href="#home" className="hover:text-[#FA6E3F] duration-300 transition">Accueil</a>
             <a href="#about" className="hover:text-[#FA6E3F] duration-300 transition">A propos</a>
             <a href="#mission" className="hover:text-[#FA6E3F] duration-300 transition">Mission & Impact</a>
-            <Button text="Rejoindre" variante="primary" />
+            <Button text="Rejoindre" variante="primary" onClick={() => document.getElementById('footer').scrollIntoView({ behavior: 'smooth' })} />
           </div>
 
           {/* Bouton Hamburger Mobile */}

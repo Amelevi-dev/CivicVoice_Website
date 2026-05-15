@@ -1,6 +1,7 @@
 
 
 export const IMPACTSECTION = ()=>{
+    
     return(
         <section className="md:py-5 md:px-4" id="impact">
                 <h1 className='text-4xl md:text-5xl font-semibold text-primary leading-[1.1] tracking-tight py-6 text-center' data-aos="fade-up">Impact</h1>

@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6'
 
 export const FOOTER = () => {
   return (
-    <footer className="bg-black w-full text-white pt-4 flex flex-col items-center">
+    <footer className="bg-black w-full text-white pt-4 flex flex-col items-center" id="footer">
       
       {/* 1. HEADER DU FOOTER (Logo et Nom) */}
       <div className="flex items-center space-x-4 mb-4">
